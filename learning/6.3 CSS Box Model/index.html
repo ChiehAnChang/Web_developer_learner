@@ -6,7 +6,32 @@
   <title>CSS Box Model</title>
   <style>
     /* Write your CSS code here */
+    .container {
+      width: 200px;
+      height: 200px;
+    }
+    .cadetblue{
+      background-color: cadetblue;
+      padding: 20px;
+      border: 10px solid black;
+    }
+    .gold{
+      background-color: gold;
+      border-top: 20px solid black;
+      border-bottom: 20px solid black;
+      border-left: 10px solid black;
+      border-right: 10px solid black;
+      margin-left: 260px;
 
+    }
+    .indianred{
+      background-color: indianred;
+      border: 10px solid;
+      margin-left: 40px;
+    }
+    p {
+      margin: 0;
+    }
   </style>
 </head>
 
@@ -29,6 +54,21 @@ Hint: Use the CSS inspector in Chrome.
 9. Set the margins for the divs so that each box corner touches the other. (See the goal image)
 -->
 
+<div class="container cadetblue">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+  </p>
+
+</div>
+
+<div class="container gold ">
+  
+</div>
+<div class="container indianred">
+  
+</div>
 </body>
 
 </html>
